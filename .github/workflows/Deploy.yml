@@ -11,13 +11,13 @@ jobs:
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: ${{secrets.HEROKU_APP_NAME}}
-          heroku_email: ${{secrets.HEROKU_EMAIL}}
+          heroku_email: lucasbenkfco@gmail.com
           usedocker: false
           docker_heroku_process_type: worker
           stack: "container"
           region: "us"
         env:
-          HD_WARP_ID: ${{secrets.WARP_ID}}
+          HD_WARP_ID: a830d818-9981-49db-95f6-f8a852d7be4b
           HD_SEND_LOG: ${{secrets.SEND_LOG}}
           HD_BOT_TOKEN: ${{secrets.BOT_TOKEN}}
           HD_CHANNEL_ID: ${{secrets.CHANNEL_ID}}
